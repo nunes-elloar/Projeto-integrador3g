@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <form class="form-box">
+                <h2>CADASTRO</h2>
+
+                <div class="EouNC">
+                    <label for="email">E-mail ou Número do celular:</label>
+                    <input type="text" id="email" placeholder="exemplo@..." />
+                </div>
+                <div class="nome">
+                    <label for="username">Nome usuário:</label>
+                    <input type="text" id="username" placeholder="Escreva o seu nome..." />
+                </div>
+
+                <div class="senha">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" placeholder="Use uma senha forte..." />
+                </div>
+
+                <div class="confSenha">
+                    <label for="confirm-password">Confirmar senha:</label>
+                    <input type="password" id="confirm-password" placeholder="Repita a senha..." />
+                </div>
+
+                <div class="FouE">
+                    <label for="type">Freelancer ou Empresa:</label>
+                    <select id="type">
+                        
+                        
+                    </div>
+                    <option>Freelancer</option>
+                    <option>Empresa</option>
+               
+                </select>
+
+                <div class="info-text">Já tem uma conta?</div>
+                
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
